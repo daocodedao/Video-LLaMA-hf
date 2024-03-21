@@ -29,3 +29,5 @@ MANIFEST
 
 eval_configs/video_llama_eva_debug.yaml
 app_v2.py
+*.pth
+ckpt/
