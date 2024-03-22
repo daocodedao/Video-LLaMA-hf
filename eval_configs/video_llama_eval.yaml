@@ -10,6 +10,8 @@ model:
 
   # llama_model: "DAMO-NLP-SG/vicuna-7b"
   llama_model: "lmsys/vicuna-7b-v1.5"
+  # llama_model: "DAMO-NLP-SG/Video-LLaMA-Series"
+  
 
   fusion_head_layers: 2
   max_frame_pos: 32
