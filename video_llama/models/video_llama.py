@@ -112,7 +112,9 @@ class VideoLLAMA(Blip2Base):
 
         logging.info('Loading LLAMA Tokenizer')
         # self.llama_tokenizer = LlamaTokenizer.from_pretrained(llama_model,  use_fast=False, use_auth_token=os.environ["API_TOKEN"])
-        self.llama_tokenizer = LlamaTokenizer.from_pretrained(llama_model,  use_fast=False)
+        self.llama_tokenizer = LlamaTokenizer.from_pretrained(llama_model,  
+                                                              use_fast=False)
+        
         if self.llama_tokenizer.pad_token is None:
             self.llama_tokenizer.pad_token = self.llama_tokenizer.eos_token 
         DEFAULT_IMAGE_PATCH_TOKEN = '<ImageHere>'
