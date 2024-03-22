@@ -12,3 +12,4 @@ torchvision
 salesforce-lavis
 bitsandbytes
 accelerate
+gradio
